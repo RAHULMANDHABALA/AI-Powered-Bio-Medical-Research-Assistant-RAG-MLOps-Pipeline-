@@ -1,0 +1,28 @@
+# biomed_rag/requirements.txt
+
+# Core libraries for data handling and AI
+biopython
+beautifulsoup4
+langchain
+openai
+
+# For creating vector embeddings and the database
+sentence-transformers
+faiss-cpu
+chromadb
+
+# For managing API keys securely
+python-dotenv
+
+# For the web interface
+streamlit
+
+# For PDF processing
+pypdf
+
+# A watchdog library that chromadb may need
+watchdog
+
+# --- ADD THIS LINE ---
+# The XML parser required by BeautifulSoup
+lxml
